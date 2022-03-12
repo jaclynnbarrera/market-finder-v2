@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Top from "./top/Top";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <Top />
     </div>
   );
 }
